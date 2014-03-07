@@ -14,7 +14,7 @@
       that.handleKeyEvent(event)
     });
 
-    setInterval(this.step.bind(this), 100);
+    setInterval(this.step.bind(this), 50);
   }
 
 

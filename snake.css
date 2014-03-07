@@ -1,20 +1,23 @@
 .container {
   background-color :black;
+  border-width: 5px;
+  border-style: solid;
   width :600px;
-  height :600px;
+  height :562px;
 }
 
 .container > div {
-  height :5%;
+  height :28px;
 }
 
 .tile {
   background-color :white;
-  width :5%;
+  width :28px;
   height :100%;
   margin :0;
   padding :0;
-  border: 1px;
+  border-width: 1px;
+  border-style: solid;
   display :inline-block;
 }
 
