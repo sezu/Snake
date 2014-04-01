@@ -11,12 +11,13 @@
 }
 
 .tile {
-  background-color :white;
+  background-color :black;
   width :28px;
   height :100%;
   margin :0;
   padding :0;
   border-width: 1px;
+  border-color: #255C25;
   border-style: solid;
   display :inline-block;
 }
@@ -26,5 +27,5 @@
 }
 
 .mouse {
-  background: gray;
+  background: #C2D6D6;
 }
