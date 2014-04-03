@@ -44,7 +44,7 @@
 
     var firstPos = _.first(this.snake.segments).pos;
     if (this.snake.checkCollision(firstPos))
-      alert("YOU LOSE!")
+    location.reload();
 
     if (firstPos[0] == this.mouse.pos[0] && firstPos[1] == this.mouse.pos[1]){
       this.snake.grow(lastPos);
@@ -52,9 +52,6 @@
     }
 
     this.grid[firstPos[1]][firstPos[0]] = 'S';
-
-
-
   }
 
   Board.prototype.makeGrid = function(size) {
